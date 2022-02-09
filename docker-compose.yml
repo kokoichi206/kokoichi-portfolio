@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  front:
+    container_name: front
+    build: infra
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/app
+    tty: true
+    stdin_open: true
+    command: /bin/sh
