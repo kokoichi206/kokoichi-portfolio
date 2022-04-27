@@ -1,17 +1,13 @@
 name: Build and Deploy
 
 on:
-  push:
-    branches:
-      - issue/3
   pull_request:
-    paths-ignore:
-      - 'docs/**'
-      - '**.md'
+    types: [closed]
 
 jobs:
   update-docs:
     runs-on: ubuntu-20.04
+    if: github.event.pull_request.merged == true
     steps:
       - uses: actions/checkout@v3
       - name: Setup for github actions
