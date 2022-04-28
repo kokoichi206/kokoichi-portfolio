@@ -1,11 +1,18 @@
 .footer {
+  width: 100vw;
+  background-color: #22272e;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  color: white;
+
   a {
     color: inherit;
     text-decoration: none;
   }
 
   span {
-    color: green;
+    color: #3ad353;
     font-weight: bold;
   }
 }
