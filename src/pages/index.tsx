@@ -1,5 +1,9 @@
 import Head from 'next/head';
 import styles from '../../styles/Home.module.scss';
+import Products from '../components/products';
+import Profile from '../components/profile';
+import Skills from '../components/skills';
+import SNS from '../components/sns';
 
 export default function Home() {
   return (
@@ -10,13 +14,17 @@ export default function Home() {
         <link rel="icon" href="./icon.ico" />
       </Head>
 
+      <Profile />
+
+      <SNS />
+
+      <Skills />
+
+      <Products />
+
       <footer className={styles.footer}>
         © 2022&nbsp;
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://github.com/kokoichi206" target="_blank" rel="noopener noreferrer">
           <span>kokoichi</span>
         </a>
       </footer>

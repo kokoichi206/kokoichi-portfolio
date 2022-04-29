@@ -1,11 +1,105 @@
+$main-green: #3ad353;
+$padding-block: 1rem;
+$icon-margin-horizontal: 0.2rem;
+
 .footer {
+  width: 100vw;
+  background-color: #22272e;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  color: white;
+
   a {
     color: inherit;
     text-decoration: none;
   }
 
   span {
-    color: green;
+    color: $main-green;
     font-weight: bold;
+  }
+}
+
+.profile,
+.SNS,
+.skills,
+.products {
+  padding: $padding-block 0;
+
+  .title {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 0.4rem;
+  }
+
+  .icon {
+    margin-right: $icon-margin-horizontal;
+  }
+}
+
+.SNS {
+  .contents {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+  }
+  $padding-horizontal: 0.5rem;
+  .content {
+    padding-left: $padding-horizontal;
+    padding-right: $padding-horizontal;
+    color: black;
+  }
+  .content:hover {
+    animation: jump-small 1s;
+  }
+}
+
+@keyframes jump-small {
+  0% {
+    transform: translate(0, 0);
+    color: $main-green;
+  }
+  50% {
+    transform: translate(0, -0.3rem);
+    color: $main-green;
+  }
+}
+
+.profile,
+.skills {
+  .contents {
+    display: flex;
+    justify-content: center;
+
+    li {
+      list-style-type: none;
+    }
+  }
+  .langs {
+    display: flex;
+    justify-content: left;
+  }
+}
+
+.stars {
+  padding: 0 0.5rem;
+}
+
+.products {
+  .contents {
+    display: flex;
+    justify-content: center;
+
+    li {
+      list-style-type: none;
+      padding: 0.2rem 0;
+    }
+
+    li:hover {
+      color: $main-green;
+    }
   }
 }
