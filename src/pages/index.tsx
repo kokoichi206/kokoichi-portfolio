@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../../styles/Home.module.scss';
 import Products from '../components/products';
+import Profile from '../components/profile';
 import Skills from '../components/skills';
 import SNS from '../components/sns';
 
@@ -12,6 +13,8 @@ export default function Home() {
         <meta name="description" content="Kokoichi" />
         <link rel="icon" href="./icon.ico" />
       </Head>
+
+      <Profile />
 
       <SNS />
 
