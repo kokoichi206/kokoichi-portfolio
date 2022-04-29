@@ -21,7 +21,9 @@ $icon-margin-horizontal: 0.2rem;
   }
 }
 
-.SNS {
+.SNS,
+.skills,
+.products {
   padding: $padding-block 0;
 
   .title {
@@ -32,6 +34,12 @@ $icon-margin-horizontal: 0.2rem;
     padding-top: 0.4rem;
   }
 
+  .icon {
+    margin-right: $icon-margin-horizontal;
+  }
+}
+
+.SNS {
   .contents {
     display: flex;
     justify-content: center;
@@ -45,10 +53,6 @@ $icon-margin-horizontal: 0.2rem;
   }
   .content:hover {
     animation: jump-small 1s;
-  }
-
-  .icon {
-    margin-right: $icon-margin-horizontal;
   }
 }
 
@@ -64,20 +68,6 @@ $icon-margin-horizontal: 0.2rem;
 }
 
 .skills {
-  padding: $padding-block 0;
-
-  .title {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    padding-top: 0.4rem;
-  }
-
-  .icon {
-    margin-right: $icon-margin-horizontal;
-  }
-
   .contents {
     display: flex;
     justify-content: center;
@@ -94,4 +84,20 @@ $icon-margin-horizontal: 0.2rem;
 
 .stars {
   padding: 0 0.5rem;
+}
+
+.products {
+  .contents {
+    display: flex;
+    justify-content: center;
+
+    li {
+      list-style-type: none;
+      padding: 0.2rem 0;
+    }
+
+    li:hover {
+      color: $main-green;
+    }
+  }
 }

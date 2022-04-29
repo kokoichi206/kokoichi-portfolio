@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../../styles/Home.module.scss';
+import Products from '../components/products';
 import Skills from '../components/skills';
 import SNS from '../components/sns';
 
@@ -15,6 +16,8 @@ export default function Home() {
       <SNS />
 
       <Skills />
+
+      <Products />
 
       <footer className={styles.footer}>
         © 2022&nbsp;
