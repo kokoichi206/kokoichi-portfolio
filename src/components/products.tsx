@@ -15,7 +15,7 @@ export default function Products() {
         <ul>
           <li>
             <a
-              href="https://play.google.com/store/apps/developer?id=Takahiro%2BTominaga"
+              href="https://play.google.com/store/apps/developer?id=Takahiro%20Tominaga"
               target="_blank"
               rel="noopener noreferrer"
             >
