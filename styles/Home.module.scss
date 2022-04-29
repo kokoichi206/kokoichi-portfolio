@@ -99,7 +99,16 @@ $icon-margin-horizontal: 0.2rem;
     }
 
     li:hover {
-      color: $main-green;
+      animation: change-color 1s;
     }
+  }
+}
+
+@keyframes change-color {
+  0% {
+    color: $main-green;
+  }
+  50% {
+    color: $main-green;
   }
 }
