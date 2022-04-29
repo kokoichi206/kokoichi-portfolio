@@ -1,3 +1,5 @@
+$main-green: #3ad353;
+
 .footer {
   width: 100vw;
   background-color: #22272e;
@@ -12,7 +14,47 @@
   }
 
   span {
-    color: #3ad353;
+    color: $main-green;
     font-weight: bold;
+  }
+}
+
+.SNS {
+  .title {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 0.4rem;
+  }
+
+  .contents {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+  }
+  $padding-horizontal: 0.5rem;
+  .content {
+    padding-left: $padding-horizontal;
+    padding-right: $padding-horizontal;
+    color: black;
+  }
+  .content:hover {
+    animation: jump-small 1s;
+  }
+  $margin-horizontal: 0.2rem;
+  .icon {
+    margin-right: $margin-horizontal;
+  }
+}
+
+@keyframes jump-small {
+  0% {
+    transform: translate(0, 0);
+    color: $main-green;
+  }
+  50% {
+    transform: translate(0, -0.3rem);
+    color: $main-green;
   }
 }

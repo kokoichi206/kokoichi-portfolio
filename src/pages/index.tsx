@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../../styles/Home.module.scss';
+import SNS from '../components/sns';
 
 export default function Home() {
   return (
@@ -10,13 +11,11 @@ export default function Home() {
         <link rel="icon" href="./icon.ico" />
       </Head>
 
+      <SNS />
+
       <footer className={styles.footer}>
         © 2022&nbsp;
-        <a
-          href="https://github.com/kokoichi206"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://github.com/kokoichi206" target="_blank" rel="noopener noreferrer">
           <span>kokoichi</span>
         </a>
       </footer>
