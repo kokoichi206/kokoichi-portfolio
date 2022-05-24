@@ -2,6 +2,16 @@ $main-green: #3ad353;
 $padding-block: 1rem;
 $icon-margin-horizontal: 0.2rem;
 
+.grass {
+  width: 100vw;
+  padding: 2rem 0.5rem 0 0;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 100%;
+  }
+}
+
 .footer {
   width: 100vw;
   background-color: #22272e;
