@@ -1,0 +1,30 @@
+name: Update my grass
+
+on:
+  schedule:
+    # 日本時間01時00分
+    - cron: '0 16 * * *'
+
+jobs:
+  update-grass:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Check out
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # 0 means all branches
+      - name: Create grass
+        run: |
+          bash scripts/grass.sh
+          mkdir tmp
+          mv grass_color.svg tmp
+      - name: Checkout to ph-pages and update grass!
+        run: |
+          git config user.name kokoichi206
+          git config user.email kokoichi.test@gmail.com
+
+          git checkout origin/gh-pages
+          sudo mv tmp/grass_color.svg grass_color.svg
+          git add grass_color.svg
+          git commit -m "Update"
+          git push origin HEAD:gh-pages
