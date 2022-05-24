@@ -12,7 +12,7 @@ set -eu
 
 # ============ TODO ===========
 # You HAVE TO SET YOUR GitHub Accouunt
-ACCOUNT=""
+ACCOUNT="kokoichi206"
 # =============================
 
 if [ -z "${ACCOUNT}" ]; then
