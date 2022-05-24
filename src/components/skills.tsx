@@ -29,17 +29,17 @@ export default function Skills() {
           </li>
           <li>
             <div className={styles.langs}>
-              <OneStar /> Go
+              <TwoStar /> Go
+            </div>
+          </li>
+          <li>
+            <div className={styles.langs}>
+              <TwoStar /> Github
             </div>
           </li>
           <li>
             <div className={styles.langs}>
               <OneStar /> React
-            </div>
-          </li>
-          <li>
-            <div className={styles.langs}>
-              <OneStar /> Github
             </div>
           </li>
         </ul>
