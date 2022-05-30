@@ -470,6 +470,7 @@
 </g>
 <g transform="translate(728, 0)">
 <rect width="10" height="10" x="-38" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="23" data-date="2022-05-29" data-level="3" fill="rgb(90, 187, 99)"></rect>
+<rect width="10" height="10" x="-38" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="10" data-date="2022-05-30" data-level="1" fill="rgb(175, 220, 184)"></rect>
 </g>
 <text x="27" y="-7" class="ContributionCalendar-label">Jun</text>
 <text x="79" y="-7" class="ContributionCalendar-label">Jul</text>
