@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Description:
 #   1. download grass(contributions) from github.
@@ -8,7 +8,7 @@
 #   0. Fill your account below.
 #   $ bash grass.sh
 #
-set -eu
+set -euo pipefail
 
 # ============ TODO ===========
 # You HAVE TO SET YOUR GitHub Accouunt
