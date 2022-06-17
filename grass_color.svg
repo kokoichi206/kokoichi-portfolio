@@ -472,8 +472,9 @@
 <rect width="10" height="10" x="-38" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="5" data-date="2022-06-12" data-level="1" fill="rgb(175, 220, 184)"></rect>
 <rect width="10" height="10" x="-38" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-06-13" data-level="1" fill="rgb(175, 220, 184)"></rect>
 <rect width="10" height="10" x="-38" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="7" data-date="2022-06-14" data-level="1" fill="rgb(175, 220, 184)"></rect>
-<rect width="10" height="10" x="-38" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="4" data-date="2022-06-15" data-level="1" fill="rgb(175, 220, 184)"></rect>
-<rect width="10" height="10" x="-38" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-06-16" data-level="1" fill="rgb(175, 220, 184)"></rect>
+<rect width="10" height="10" x="-38" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="6" data-date="2022-06-15" data-level="1" fill="rgb(175, 220, 184)"></rect>
+<rect width="10" height="10" x="-38" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="2" data-date="2022-06-16" data-level="1" fill="rgb(175, 220, 184)"></rect>
+<rect width="10" height="10" x="-38" y="65" class="ContributionCalendar-day" rx="2" ry="2" data-count="3" data-date="2022-06-17" data-level="1" fill="rgb(175, 220, 184)"></rect>
 </g>
 <text x="14" y="-7" class="ContributionCalendar-label">Jun</text>
 <text x="53" y="-7" class="ContributionCalendar-label">Jul</text>
