@@ -472,7 +472,8 @@
 <rect width="10" height="10" x="-38" y="0" class="ContributionCalendar-day" rx="2" ry="2" data-count="9" data-date="2022-11-27" data-level="1" fill="rgb(175, 220, 184)"></rect>
 <rect width="10" height="10" x="-38" y="13" class="ContributionCalendar-day" rx="2" ry="2" data-count="1" data-date="2022-11-28" data-level="1" fill="rgb(175, 220, 184)"></rect>
 <rect width="10" height="10" x="-38" y="26" class="ContributionCalendar-day" rx="2" ry="2" data-count="5" data-date="2022-11-29" data-level="1" fill="rgb(175, 220, 184)"></rect>
-<rect width="10" height="10" x="-38" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="8" data-date="2022-11-30" data-level="1" fill="rgb(175, 220, 184)"></rect>
+<rect width="10" height="10" x="-38" y="39" class="ContributionCalendar-day" rx="2" ry="2" data-count="9" data-date="2022-11-30" data-level="1" fill="rgb(175, 220, 184)"></rect>
+<rect width="10" height="10" x="-38" y="52" class="ContributionCalendar-day" rx="2" ry="2" data-count="28" data-date="2022-12-01" data-level="3" fill="rgb(90, 187, 99)"></rect>
 </g>
 <text x="27" y="-7" class="ContributionCalendar-label">Dec</text>
 <text x="79" y="-7" class="ContributionCalendar-label">Jan</text>
