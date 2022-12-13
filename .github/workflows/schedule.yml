@@ -4,21 +4,33 @@ on:
   schedule:
     # 日本時間01時00分
     - cron: '0 16 * * *'
+  workflow_dispatch:
 
 jobs:
   update-grass:
     runs-on: ubuntu-20.04
+    environment: production
+    env:
+      HATENA_API_KEY: "${{ secrets.HATENA_API_KEY }}"
     steps:
       - name: Check out
         uses: actions/checkout@v2
         with:
           fetch-depth: 0 # 0 means all branches
+
       - name: Create grass
         run: |
           bash scripts/grass.sh
           mkdir tmp
           mv grass_color.svg tmp
-      - name: Checkout to ph-pages and update grass!
+      - name: Fetch the latest blogs
+        run: |
+          bash scripts/setup_for_blogs.sh
+          # use environment variable: HATENA_API_KEY
+          bash scripts/blogs.sh
+          mv entries.json tmp
+
+      - name: Checkout to ph-pages and update information!
         run: |
           git config user.name kokoichi206
           git config user.email kokoichi.test@gmail.com
@@ -26,5 +38,7 @@ jobs:
           git checkout origin/gh-pages
           sudo mv tmp/grass_color.svg grass_color.svg
           git add grass_color.svg
+          sudo mv tmp/entries.json entries.json
+          git add entries.json
           git commit -m "Update"
           git push origin HEAD:gh-pages
