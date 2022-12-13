@@ -50,6 +50,29 @@ $icon-margin-horizontal: 0.2rem;
   }
 }
 
+.blogs {
+  margin: 2rem 2rem;
+
+  .contents {
+    border: 0.1rem outset #22272e;
+
+    .content {
+      justify-content: left;
+      max-width: 50rem;
+      margin: 1rem 1rem;
+      .title {
+        justify-content: left;
+        font-size: 1.2rem;
+        color: #256FBA;
+      }
+      .tag {
+        columns: #6B7377;
+        display: inline-block;
+      }
+    }
+  }
+}
+
 .SNS {
   .contents {
     display: flex;
