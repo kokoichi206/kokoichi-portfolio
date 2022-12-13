@@ -9,14 +9,14 @@ export default function Blogs() {
       <div className={styles.contents}>
         {blogs.map((elm) => {
           return (
-            <div className={styles.content}>
+            <div key={elm.title} className={styles.content}>
               <a href={elm.url}>
                 <div className={styles.title}>{elm.title}</div>
               </a>
               <div>{elm.summary}</div>
               <div>
                 {elm.category.map((tag) => {
-                  return <p className={styles.tag}>#{tag}</p>;
+                  return <p key={tag} className={styles.tag}>#{tag}</p>;
                 })}
               </div>
             </div>
