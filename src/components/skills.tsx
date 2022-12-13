@@ -1,6 +1,6 @@
 import styles from '../../styles/Home.module.scss';
 import { GiSkills } from 'react-icons/gi';
-import { OneStar, TwoStar } from './stars';
+import { OneStar, ThreeStar, TwoStar } from './stars';
 
 export default function Skills() {
   return (
@@ -14,22 +14,17 @@ export default function Skills() {
         <ul>
           <li>
             <div className={styles.langs}>
-              <TwoStar /> Android (Kotlin)
+              <ThreeStar /> Android (Kotlin)
             </div>
           </li>
           <li>
             <div className={styles.langs}>
-              <TwoStar /> Python (ML)
+              <ThreeStar /> Python (ML)
             </div>
           </li>
           <li>
             <div className={styles.langs}>
-              <TwoStar /> iOS (SwiftUI)
-            </div>
-          </li>
-          <li>
-            <div className={styles.langs}>
-              <TwoStar /> Go
+              <ThreeStar /> Go
             </div>
           </li>
           <li>
@@ -40,6 +35,11 @@ export default function Skills() {
           <li>
             <div className={styles.langs}>
               <OneStar /> React
+            </div>
+          </li>
+          <li>
+            <div className={styles.langs}>
+              <OneStar /> iOS (SwiftUI)
             </div>
           </li>
         </ul>
