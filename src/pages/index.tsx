@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../../styles/Home.module.scss';
+import Blogs from '../components/blogs';
 import Contributions from '../components/contributions';
 import Products from '../components/products';
 import Profile from '../components/profile';
@@ -25,6 +26,8 @@ export default function Home() {
       <Skills />
 
       <Products />
+
+      <Blogs />
 
       <footer className={styles.footer}>
         © 2022&nbsp;
