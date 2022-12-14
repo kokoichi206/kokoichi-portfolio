@@ -1,4 +1,4 @@
-name: Update my grass
+name: Update my info
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-grass:
+  update-info:
     runs-on: ubuntu-20.04
     environment: production
     env:
