@@ -6,7 +6,7 @@
 #
 set -eu
 
-apt install jq -y
+sudo apt install jq -y
 # install xq
-apt install pip -y
+sudo apt install pip -y
 pip install yq
