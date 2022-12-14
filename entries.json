@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Jetpack Compose で Material You を使う",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/14/192751",
+    "published": "2022-11-14T19:27:51+09:00",
+    "summary": "今回は、Jetpack compose で Material You を使う方法についてメモしておきます。 なお、今回の内容は『Android DevSummit \"Material You in Compose apps\"』から学んだものとなります。 環境 - kotlinCo…",
+    "category": [
+      "Android",
+      "Android-jetpack compose"
+    ]
+  },
+  {
+    "title": "ワイヤレスデバッグをステータスバーに表示する方法",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/13/233411",
+    "published": "2022-11-13T23:34:11+09:00",
+    "summary": "開発者モードのオプションにあるワイヤレスデバッグを、ステータスバー（通知バー）に表示する方法をメモしておきます。 開発時、ステータスバーにデバッグオプションを表示させた方が便利なケースが多いです。 標準ではこちらに表示されておりません。 Settings から、『Quick se…",
+    "category": [
+      "Android"
+    ]
+  },
+  {
+    "title": "Android: offline-first",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/10/224356",
+    "published": "2022-11-10T22:43:56+09:00",
+    "summary": "Dev Summit: Create offline-first apps を試聴したのでそのメモです（）。 repository 層の役割 リポジトリー層の役割として、少なくとも 2 つのデータソース（LocalDataSource と NetworkDataSource）から…",
+    "category": [
+      "Android"
+    ]
+  },
+  {
+    "title": "Jetpack Compose をデバッグする方法",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/10/202653",
+    "published": "2022-11-10T20:26:53+09:00",
+    "summary": "今回は Android Studio の Layout Inspector Jetpack Compose のを使ってみていくことになります。 環境 - Android Studio: Android Studio Dolphin | 2021.3.1 - kotlinCompi…",
+    "category": [
+      "Android-jetpack compose",
+      "Android"
+    ]
+  },
+  {
+    "title": "ShellCheck から学ぶ良いスクリプトの書き方 〜SC2086(ダブルクォート)編〜",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/08/002123",
+    "published": "2022-11-08T00:21:23+09:00",
+    "summary": "とりあえずは変数はダブルクォーテーションで囲もうってことなんですが、囲まないとどうなるか少し調べてみました。 [目次] Double quote to prevent globbing and word splitting. globbing word splitting おまけ…",
+    "category": [
+      "Shell"
+    ]
+  },
+  {
+    "title": "Jetpack compose で Indicator をなめらかにする",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/07/123151",
+    "published": "2022-11-07T12:31:51+09:00",
+    "summary": "今回は、Jetpack compose でなめらかに Indicator を表示する方法についてメモしておきます。 なお、今回の内容は『Android DevSummit \"5 quick animations to make your Compose app stand out…",
+    "category": [
+      "Android-jetpack compose",
+      "Android"
+    ]
+  },
+  {
+    "title": "Android のマルチモジュール化で Preview の高速化",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/06/035812",
+    "published": "2022-11-06T03:58:12+09:00",
+    "summary": "今回は Android のプロジェクトをマルチモジュール化し、Jetpack Compose の Preview を高速化してみました。 [目次] 環境 マルチモジュール化のメリット デメリット マルチモジュール化の方法 プレビュー速度の向上 Links おわりに 環境 - PC…",
+    "category": [
+      "Android-jetpack compose",
+      "Android"
+    ]
+  },
+  {
+    "title": "Android のモジュールで BuildConfig を生成しない方法",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/05/131141",
+    "published": "2022-11-05T13:11:41+09:00",
+    "summary": "この間マルチモジュールの対応をしたのですが、その際に BuildConfig について少し気になったので、今回はモジュールにおいて BuildConfig を生成しない方法についてメモしておきます。 各モジュールにおいても、標準では以下のようなファイルが generated フォ…",
+    "category": [
+      "Android"
+    ]
+  },
+  {
+    "title": "マルチモジュールでの compose navigation におけるベストプラクティス（Android DevSummit）",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/05/041905",
+    "published": "2022-11-05T04:19:05+09:00",
+    "summary": "Compose の nagitaion における multi module 対応についての内容を youtube で見ました（\"Type safe, multi-module best practices with Navigation Compose\"）。 この中で 5 つのベ…",
+    "category": [
+      "Android",
+      "Android-jetpack compose"
+    ]
+  },
+  {
+    "title": "Jetpack compose で Back-end (JVM) Internal error",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/03/233345",
+    "published": "2022-11-03T23:33:45+09:00",
+    "summary": "Jetpack compose で開発中、以下のようなエラーが出ました。 Caused by: org.jetbrains.kotlin.codegen.CompilationException: Back-end (JVM) Internal error: Couldn't i…",
+    "category": [
+      "Android",
+      "Android-jetpack compose"
+    ]
+  }
+]
