@@ -1,5 +1,63 @@
 [
   {
+    "title": "Java (Kotlin) で HTTP のステータスコードの定数を使う方法",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/30/021622",
+    "published": "2022-11-30T02:16:22+09:00",
+    "summary": "Android (Kotlin) で Retrofit を使っていた時に、HTTP のステータスコードを使いたくなりました。 直にベタ書きするのはいやだなーと思っていたところ、HttpURLConnection のクラスに用意されていました。 import java.net.Ht…",
+    "category": [
+      "Java API",
+      "Android"
+    ]
+  },
+  {
+    "title": "bash [[ 内での <,> は文字列比較になるよ",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/28/203443",
+    "published": "2022-11-28T20:34:43+09:00",
+    "summary": "bash で変数の評価を行う際に [[ をよく使うんですが、その中の <, > の意味を間違っていたがために、無駄に時間を使ってしまう事件がありました。 （未来の自分を含めた）皆さんには変なところで躓いて欲しくないため、こちらにメモしておきます。 [目次] 時間ない人まとめ [[…",
+    "category": [
+      "Shell",
+      "Linux"
+    ]
+  },
+  {
+    "title": "Retrofit & Gson Converter でぬるぽ",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/23/044008",
+    "published": "2022-11-23T04:40:08+09:00",
+    "summary": "以下のようなセットで API をコールしていた時に、『Non-null と思っていたのにぬるぽが発生する』ということが起きてしまいました。 HTTP クライアントとして Retrofit JSON to クラスのコンバーターとして Gson 原因 API サーバーで api-ke…",
+    "category": [
+      "Android"
+    ]
+  },
+  {
+    "title": "git log を使って 1 日分のコード差分行数を計算",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/21/024936",
+    "published": "2022-11-21T02:49:36+09:00",
+    "summary": "git log を使って、特定のユーザーが何行進捗を出したかを確認する例のメモです。 特に、initial commit などのコミットメッセージに代表されるプロジェクト（フレームワーク）の初期ファイルを、コミットメッセージから無視するようにしました。 特定のユーザーからのコミッ…",
+    "category": [
+      "Shell",
+      "Linux-ワンライナー",
+      "Github"
+    ]
+  },
+  {
+    "title": "Android のテーマアイコンの設定",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/18/122705",
+    "published": "2022-11-18T12:27:05+09:00",
+    "summary": "Android のテーマアイコンを有効にする方法と、アプリに設定する方法を紹介します。 [目次] テーマアイコンとは テーマアイコンを有効にする方法 自アプリに設定する方法 リンク おわりに テーマアイコンとは アプリのテーマアイコンとは、以下のように『ユーザーの背景・ダークモー…",
+    "category": [
+      "Android"
+    ]
+  },
+  {
+    "title": "<meta charset=\"UTF-8\"> をつけてるのに文字化けする",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/16/235254",
+    "published": "2022-11-16T23:52:54+09:00",
+    "summary": "Apache 2.4 を使ってコンテンツを置いているサーバーで、HTML の <head> 内に <meta charset=\"UTF-8\"> をつけているのに文字化けが発生する現象が発生しました。 これは次のように content を指定したら解決しました。 <meta htt…",
+    "category": [
+      "Web"
+    ]
+  },
+  {
     "title": "Jetpack Compose で Material You を使う",
     "url": "https://koko206.hatenablog.com/entry/2022/11/14/192751",
     "published": "2022-11-14T19:27:51+09:00",
@@ -35,64 +93,6 @@
     "category": [
       "Android-jetpack compose",
       "Android"
-    ]
-  },
-  {
-    "title": "ShellCheck から学ぶ良いスクリプトの書き方 〜SC2086(ダブルクォート)編〜",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/08/002123",
-    "published": "2022-11-08T00:21:23+09:00",
-    "summary": "とりあえずは変数はダブルクォーテーションで囲もうってことなんですが、囲まないとどうなるか少し調べてみました。 [目次] Double quote to prevent globbing and word splitting. globbing word splitting おまけ…",
-    "category": [
-      "Shell"
-    ]
-  },
-  {
-    "title": "Jetpack compose で Indicator をなめらかにする",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/07/123151",
-    "published": "2022-11-07T12:31:51+09:00",
-    "summary": "今回は、Jetpack compose でなめらかに Indicator を表示する方法についてメモしておきます。 なお、今回の内容は『Android DevSummit \"5 quick animations to make your Compose app stand out…",
-    "category": [
-      "Android-jetpack compose",
-      "Android"
-    ]
-  },
-  {
-    "title": "Android のマルチモジュール化で Preview の高速化",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/06/035812",
-    "published": "2022-11-06T03:58:12+09:00",
-    "summary": "今回は Android のプロジェクトをマルチモジュール化し、Jetpack Compose の Preview を高速化してみました。 [目次] 環境 マルチモジュール化のメリット デメリット マルチモジュール化の方法 プレビュー速度の向上 Links おわりに 環境 - PC…",
-    "category": [
-      "Android-jetpack compose",
-      "Android"
-    ]
-  },
-  {
-    "title": "Android のモジュールで BuildConfig を生成しない方法",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/05/131141",
-    "published": "2022-11-05T13:11:41+09:00",
-    "summary": "この間マルチモジュールの対応をしたのですが、その際に BuildConfig について少し気になったので、今回はモジュールにおいて BuildConfig を生成しない方法についてメモしておきます。 各モジュールにおいても、標準では以下のようなファイルが generated フォ…",
-    "category": [
-      "Android"
-    ]
-  },
-  {
-    "title": "マルチモジュールでの compose navigation におけるベストプラクティス（Android DevSummit）",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/05/041905",
-    "published": "2022-11-05T04:19:05+09:00",
-    "summary": "Compose の nagitaion における multi module 対応についての内容を youtube で見ました（\"Type safe, multi-module best practices with Navigation Compose\"）。 この中で 5 つのベ…",
-    "category": [
-      "Android",
-      "Android-jetpack compose"
-    ]
-  },
-  {
-    "title": "Jetpack compose で Back-end (JVM) Internal error",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/03/233345",
-    "published": "2022-11-03T23:33:45+09:00",
-    "summary": "Jetpack compose で開発中、以下のようなエラーが出ました。 Caused by: org.jetbrains.kotlin.codegen.CompilationException: Back-end (JVM) Internal error: Couldn't i…",
-    "category": [
-      "Android",
-      "Android-jetpack compose"
     ]
   }
 ]
