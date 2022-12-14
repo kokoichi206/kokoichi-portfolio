@@ -16,7 +16,11 @@ export default function Blogs() {
               <div>{elm.summary}</div>
               <div>
                 {elm.category.map((tag) => {
-                  return <p key={tag} className={styles.tag}>#{tag}</p>;
+                  return (
+                    <p key={tag} className={styles.tag}>
+                      #{tag}
+                    </p>
+                  );
                 })}
               </div>
             </div>
