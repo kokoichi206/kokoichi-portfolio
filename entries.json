@@ -1,5 +1,15 @@
 [
   {
+    "title": "もっとよく標準パッケージを使おう！",
+    "url": "https://koko206.hatenablog.com/entry/2022/12/24/095455",
+    "published": "2022-12-24T09:54:55+09:00",
+    "summary": "これは自戒を込めてになるんですが、もっとよく標準パッケージを使おう（知ろう）という話です。 なければ探す。 例をいくつかあげてみます。 URL Encode 基本的な言語には、URL エンコード・デコードをするための標準ライブラリがあるはずです。 Bad val encoded …",
+    "category": [
+      "Go",
+      "その他"
+    ]
+  },
+  {
     "title": "Java (Kotlin) で HTTP のステータスコードの定数を使う方法",
     "url": "https://koko206.hatenablog.com/entry/2022/11/30/021622",
     "published": "2022-11-30T02:16:22+09:00",
@@ -82,16 +92,6 @@
     "published": "2022-11-10T22:43:56+09:00",
     "summary": "Dev Summit: Create offline-first apps を試聴したのでそのメモです（）。 repository 層の役割 リポジトリー層の役割として、少なくとも 2 つのデータソース（LocalDataSource と NetworkDataSource）から…",
     "category": [
-      "Android"
-    ]
-  },
-  {
-    "title": "Jetpack Compose をデバッグする方法",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/10/202653",
-    "published": "2022-11-10T20:26:53+09:00",
-    "summary": "今回は Android Studio の Layout Inspector Jetpack Compose のを使ってみていくことになります。 環境 - Android Studio: Android Studio Dolphin | 2021.3.1 - kotlinCompi…",
-    "category": [
-      "Android-jetpack compose",
       "Android"
     ]
   }
