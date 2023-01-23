@@ -470,7 +470,8 @@
 <rect width="10" height="10" x="-37" y="78" class="ContributionCalendar-day" data-date="2023-01-21" data-level="1" rx="2" ry="2">1 contribution on January 21, 2023</rect>
 </g>
 <g transform="translate(728, 0)">
-<rect width="10" height="10" x="-38" y="0" class="ContributionCalendar-day" data-date="2023-01-22" data-level="1" rx="2" ry="2">6 contributions on January 22, 2023</rect>
+<rect width="10" height="10" x="-38" y="0" class="ContributionCalendar-day" data-date="2023-01-22" data-level="1" rx="2" ry="2">7 contributions on January 22, 2023</rect>
+<rect width="10" height="10" x="-38" y="13" class="ContributionCalendar-day" data-date="2023-01-23" data-level="1" rx="2" ry="2">8 contributions on January 23, 2023</rect>
 </g>
 
 <text x="14" y="-7" class="ContributionCalendar-label">Jan</text>
