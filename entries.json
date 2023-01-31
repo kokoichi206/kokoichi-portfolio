@@ -1,5 +1,14 @@
 [
   {
+    "title": "pkg.go.dev にある godoc を強制的に更新する方法",
+    "url": "https://koko206.hatenablog.com/entry/2023/01/31/232938",
+    "published": "2023-01-31T23:29:38+09:00",
+    "summary": "前提 一度は情報を読み込めている tag プッシュしたものを反映させたい 方法 push したタグに対応する ↓ のリンクを開く https://pkg.go.dev/github.com/{user_name}/{repository_name}@{tag_version} {…",
+    "category": [
+      "Go"
+    ]
+  },
+  {
     "title": "GitHub Actions でコミットできない時見直したい設定",
     "url": "https://koko206.hatenablog.com/entry/2023/01/16/222852",
     "published": "2023-01-16T22:28:52+09:00",
@@ -84,15 +93,6 @@
     "category": [
       "Android",
       "Android-jetpack compose"
-    ]
-  },
-  {
-    "title": "ワイヤレスデバッグをステータスバーに表示する方法",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/13/233411",
-    "published": "2022-11-13T23:34:11+09:00",
-    "summary": "開発者モードのオプションにあるワイヤレスデバッグを、ステータスバー（通知バー）に表示する方法をメモしておきます。 開発時、ステータスバーにデバッグオプションを表示させた方が便利なケースが多いです。 標準ではこちらに表示されておりません。 Settings から、『Quick se…",
-    "category": [
-      "Android"
     ]
   }
 ]
