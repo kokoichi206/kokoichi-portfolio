@@ -1,5 +1,14 @@
 [
   {
+    "title": "jq: 階層化された json で UNIX タイムスタンプ を ISO 8601 形式の時間に変換する",
+    "url": "https://koko206.hatenablog.com/entry/2023/02/02/004431",
+    "published": "2023-02-02T00:44:31+09:00",
+    "summary": "TOC 目標 結論 解説 多階層を扱う jq で時刻を扱う 文字列操作 メモ 疑問 おまけ 目標 ↓ の 1 つ目の json を 2 つ目の json のように変換することです。 .*_timestamp の key を持った部分をターゲットとし、key から _timesta…",
+    "category": [
+      "Linux"
+    ]
+  },
+  {
     "title": "pkg.go.dev にある godoc を強制的に更新する方法",
     "url": "https://koko206.hatenablog.com/entry/2023/01/31/232938",
     "published": "2023-01-31T23:29:38+09:00",
@@ -83,16 +92,6 @@
     "summary": "Apache 2.4 を使ってコンテンツを置いているサーバーで、HTML の <head> 内に <meta charset=\"UTF-8\"> をつけているのに文字化けが発生する現象が発生しました。 これは次のように content を指定したら解決しました。 <meta htt…",
     "category": [
       "Web"
-    ]
-  },
-  {
-    "title": "Jetpack Compose で Material You を使う",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/14/192751",
-    "published": "2022-11-14T19:27:51+09:00",
-    "summary": "今回は、Jetpack compose で Material You を使う方法についてメモしておきます。 なお、今回の内容は『Android DevSummit \"Material You in Compose apps\"』から学んだものとなります。 環境 - kotlinCo…",
-    "category": [
-      "Android",
-      "Android-jetpack compose"
     ]
   }
 ]
