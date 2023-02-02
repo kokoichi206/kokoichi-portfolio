@@ -1,5 +1,24 @@
 [
   {
+    "title": "datadog で apache のログを収集してる際の /server-status を無視する",
+    "url": "https://koko206.hatenablog.com/entry/2023/02/02/234712",
+    "published": "2023-02-02T23:47:12+09:00",
+    "summary": "個人で勉強のために datadog を入れてみてラズパイで動かしているのですが、CPU 等を監視するために datadog-agent が 15 秒おきに /server-status?auto へアクセスを行なっているようです。 気づい時には 3 万 4000 ほど /serv…",
+    "category": [
+      "Linux"
+    ]
+  },
+  {
+    "title": "Go 言語で CLI ツールを爆速で作る方法",
+    "url": "https://koko206.hatenablog.com/entry/2023/02/02/231354",
+    "published": "2023-02-02T23:13:54+09:00",
+    "summary": "TOC なぜ Go 言語で CLI ツールを作るのか 作り方 サブコマンドを取らない場合 サブコマンドを取る場合 cobra の使用例 urfave/cli 実際にやってみる setup 初期化 サブコマンドの追加 注意点 なぜ Go 言語で CLI ツールを作るのか 以下の 4…",
+    "category": [
+      "Go",
+      "Linux"
+    ]
+  },
+  {
     "title": "jq: 階層化された json で UNIX タイムスタンプ を ISO 8601 形式の時間に変換する",
     "url": "https://koko206.hatenablog.com/entry/2023/02/02/004431",
     "published": "2023-02-02T00:44:31+09:00",
@@ -74,24 +93,6 @@
       "Shell",
       "Linux-ワンライナー",
       "Github"
-    ]
-  },
-  {
-    "title": "Android のテーマアイコンの設定",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/18/122705",
-    "published": "2022-11-18T12:27:05+09:00",
-    "summary": "Android のテーマアイコンを有効にする方法と、アプリに設定する方法を紹介します。 [目次] テーマアイコンとは テーマアイコンを有効にする方法 自アプリに設定する方法 リンク おわりに テーマアイコンとは アプリのテーマアイコンとは、以下のように『ユーザーの背景・ダークモー…",
-    "category": [
-      "Android"
-    ]
-  },
-  {
-    "title": "<meta charset=\"UTF-8\"> をつけてるのに文字化けする",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/16/235254",
-    "published": "2022-11-16T23:52:54+09:00",
-    "summary": "Apache 2.4 を使ってコンテンツを置いているサーバーで、HTML の <head> 内に <meta charset=\"UTF-8\"> をつけているのに文字化けが発生する現象が発生しました。 これは次のように content を指定したら解決しました。 <meta htt…",
-    "category": [
-      "Web"
     ]
   }
 ]
