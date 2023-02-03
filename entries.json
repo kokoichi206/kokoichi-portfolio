@@ -1,5 +1,23 @@
 [
   {
+    "title": "docker-compose で立てた psql の結果をローカルで受け取る",
+    "url": "https://koko206.hatenablog.com/entry/2023/02/03/233205",
+    "published": "2023-02-03T23:32:05+09:00",
+    "summary": "以下で紹介していることは基本は psql のオプションになります。 docker compose で立ち上げたコンテナに対して内部の DB に入るには以下のようにできます。 # postgresql: コンテナ名 # root: ユーザー名 # postgresql: 接続したい…",
+    "category": [
+      "その他"
+    ]
+  },
+  {
+    "title": "ChatGPT で API サーバー(Golang, gin)をさくっと作る",
+    "url": "https://koko206.hatenablog.com/entry/2023/02/03/214400",
+    "published": "2023-02-03T21:44:00+09:00",
+    "summary": "最近は ChatGPT と一番会話をしてる気がします。。。 今回はそんな GhatGPT さんに Go の API サーバーの記述をお願いしたら、思ったより面白いことになったのでその紹介です。 （生成いただいた内容は github においてあります。） TOC やりとり API …",
+    "category": [
+      "その他"
+    ]
+  },
+  {
     "title": "datadog で apache のログを収集してる際の /server-status を無視する",
     "url": "https://koko206.hatenablog.com/entry/2023/02/02/234712",
     "published": "2023-02-02T23:47:12+09:00",
@@ -73,26 +91,6 @@
     "category": [
       "Shell",
       "Linux"
-    ]
-  },
-  {
-    "title": "Retrofit & Gson Converter でぬるぽ",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/23/044008",
-    "published": "2022-11-23T04:40:08+09:00",
-    "summary": "以下のようなセットで API をコールしていた時に、『Non-null と思っていたのにぬるぽが発生する』ということが起きてしまいました。 HTTP クライアントとして Retrofit JSON to クラスのコンバーターとして Gson 原因 API サーバーで api-ke…",
-    "category": [
-      "Android"
-    ]
-  },
-  {
-    "title": "git log を使って 1 日分のコード差分行数を計算",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/21/024936",
-    "published": "2022-11-21T02:49:36+09:00",
-    "summary": "git log を使って、特定のユーザーが何行進捗を出したかを確認する例のメモです。 特に、initial commit などのコミットメッセージに代表されるプロジェクト（フレームワーク）の初期ファイルを、コミットメッセージから無視するようにしました。 特定のユーザーからのコミッ…",
-    "category": [
-      "Shell",
-      "Linux-ワンライナー",
-      "Github"
     ]
   }
 ]
