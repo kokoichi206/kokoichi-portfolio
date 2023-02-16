@@ -474,6 +474,7 @@
 <rect width="10" height="10" x="-38" y="13" class="ContributionCalendar-day" data-date="2023-02-13" data-level="1" rx="2" ry="2">13 contributions on February 13, 2023</rect>
 <rect width="10" height="10" x="-38" y="26" class="ContributionCalendar-day" data-date="2023-02-14" data-level="1" rx="2" ry="2">1 contribution on February 14, 2023</rect>
 <rect width="10" height="10" x="-38" y="39" class="ContributionCalendar-day" data-date="2023-02-15" data-level="1" rx="2" ry="2">7 contributions on February 15, 2023</rect>
+<rect width="10" height="10" x="-38" y="52" class="ContributionCalendar-day" data-date="2023-02-16" data-level="0" rx="2" ry="2">No contributions on February 16, 2023</rect>
 </g>
 
 <text x="14" y="-7" class="ContributionCalendar-label">Feb</text>
