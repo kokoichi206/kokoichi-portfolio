@@ -1,5 +1,14 @@
 [
   {
+    "title": "Makefile で if 文を使って、変数の有無で処理を切り替える",
+    "url": "https://koko206.hatenablog.com/entry/2023/03/04/021902",
+    "published": "2023-03-04T02:19:02+09:00",
+    "summary": "変数の有無で処理を変える 以下のように設定します。 if-test: ## ifeq ($(name),) ## 引数がない時 @echo Hello 名無さん else ## 引数がある時 @echo Hello $(name) endif 引数がある時とない時で処理が変わりま…",
+    "category": [
+      "Shell"
+    ]
+  },
+  {
     "title": "docker-compose で立てた psql の結果をローカルで受け取る",
     "url": "https://koko206.hatenablog.com/entry/2023/02/03/233205",
     "published": "2023-02-03T23:32:05+09:00",
@@ -81,16 +90,6 @@
     "category": [
       "Java API",
       "Android"
-    ]
-  },
-  {
-    "title": "bash [[ 内での <,> は文字列比較になるよ",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/28/203443",
-    "published": "2022-11-28T20:34:43+09:00",
-    "summary": "bash で変数の評価を行う際に [[ をよく使うんですが、その中の <, > の意味を間違っていたがために、無駄に時間を使ってしまう事件がありました。 （未来の自分を含めた）皆さんには変なところで躓いて欲しくないため、こちらにメモしておきます。 [目次] 時間ない人まとめ [[…",
-    "category": [
-      "Shell",
-      "Linux"
     ]
   }
 ]
