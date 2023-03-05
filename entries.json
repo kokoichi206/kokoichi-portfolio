@@ -1,5 +1,14 @@
 [
   {
+    "title": "Makefile のすすめ",
+    "url": "https://koko206.hatenablog.com/entry/2023/03/05/023844",
+    "published": "2023-03-05T02:38:44+09:00",
+    "summary": "Go は Makefile との親和性が高いみたく、ちょっと使ってみたので今回はその個人的な紹介です。 どの Go の本にも書いてあるので、gopher なら何かしらみんな使ってるものと思ってます。 目次 Makefile って何よ by Chat-GPT by 詳細 Go 言語…",
+    "category": [
+      "Go"
+    ]
+  },
+  {
     "title": "Makefile で if 文を使って、変数の有無で処理を切り替える",
     "url": "https://koko206.hatenablog.com/entry/2023/03/04/021902",
     "published": "2023-03-04T02:19:02+09:00",
@@ -80,16 +89,6 @@
     "category": [
       "Go",
       "その他"
-    ]
-  },
-  {
-    "title": "Java (Kotlin) で HTTP のステータスコードの定数を使う方法",
-    "url": "https://koko206.hatenablog.com/entry/2022/11/30/021622",
-    "published": "2022-11-30T02:16:22+09:00",
-    "summary": "Android (Kotlin) で Retrofit を使っていた時に、HTTP のステータスコードを使いたくなりました。 直にベタ書きするのはいやだなーと思っていたところ、HttpURLConnection のクラスに用意されていました。 import java.net.Ht…",
-    "category": [
-      "Java API",
-      "Android"
     ]
   }
 ]
