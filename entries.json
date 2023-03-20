@@ -1,5 +1,15 @@
 [
   {
+    "title": "ubuntu で Package graphviz is not available, but is referred to by another package.",
+    "url": "https://koko206.hatenablog.com/entry/2023/03/21/003922",
+    "published": "2023-03-21T00:39:22+09:00",
+    "summary": "apt update しても解決しない場合、デフォルトのリポジトリに graphviz が存在しないことが考えられます。 ubuntu のリポジトリとしては main, restricted, universe, multiverse がありますが、ここではなんとなく unive…",
+    "category": [
+      "Shell",
+      "ラズパイ"
+    ]
+  },
+  {
     "title": "Makefile のすすめ",
     "url": "https://koko206.hatenablog.com/entry/2023/03/05/023844",
     "published": "2023-03-05T02:38:44+09:00",
@@ -79,16 +89,6 @@
     "summary": "はじめに これらは 2023/1/16 現在の情報であり、GitHub の仕様変更によって将来変更を受ける可能性があります。 どんなエラーが出るか 権限不足でコミット等できなかった場合は、以下のようなエラーコードが表示されます（例）。 Invalid status code など…",
     "category": [
       "GitHub Actions"
-    ]
-  },
-  {
-    "title": "もっとよく標準パッケージを使おう！",
-    "url": "https://koko206.hatenablog.com/entry/2022/12/24/095455",
-    "published": "2022-12-24T09:54:55+09:00",
-    "summary": "これは自戒を込めてになるんですが、もっとよく標準パッケージを使おう（知ろう）という話です。 なければ探す。 例をいくつかあげてみます。 URL Encode 基本的な言語には、URL エンコード・デコードをするための標準ライブラリがあるはずです。 Bad val encoded …",
-    "category": [
-      "Go",
-      "その他"
     ]
   }
 ]
