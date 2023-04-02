@@ -108,17 +108,17 @@
 <g transform="translate(728, 0)">
 </g>
 
-<text x="27" y="-7" class="ContributionCalendar-label">Apr</text>
-<text x="79" y="-7" class="ContributionCalendar-label">May</text>
-<text x="144" y="-7" class="ContributionCalendar-label">Jun</text>
-<text x="196" y="-7" class="ContributionCalendar-label">Jul</text>
-<text x="261" y="-7" class="ContributionCalendar-label">Aug</text>
-<text x="313" y="-7" class="ContributionCalendar-label">Sep</text>
-<text x="365" y="-7" class="ContributionCalendar-label">Oct</text>
-<text x="430" y="-7" class="ContributionCalendar-label">Nov</text>
-<text x="482" y="-7" class="ContributionCalendar-label">Dec</text>
-<text x="534" y="-7" class="ContributionCalendar-label">Jan</text>
-<text x="599" y="-7" class="ContributionCalendar-label">Feb</text>
-<text x="651" y="-7" class="ContributionCalendar-label">Mar</text>
+<text x="14" y="-7" class="ContributionCalendar-label">Apr</text>
+<text x="66" y="-7" class="ContributionCalendar-label">May</text>
+<text x="131" y="-7" class="ContributionCalendar-label">Jun</text>
+<text x="183" y="-7" class="ContributionCalendar-label">Jul</text>
+<text x="248" y="-7" class="ContributionCalendar-label">Aug</text>
+<text x="300" y="-7" class="ContributionCalendar-label">Sep</text>
+<text x="352" y="-7" class="ContributionCalendar-label">Oct</text>
+<text x="417" y="-7" class="ContributionCalendar-label">Nov</text>
+<text x="469" y="-7" class="ContributionCalendar-label">Dec</text>
+<text x="521" y="-7" class="ContributionCalendar-label">Jan</text>
+<text x="586" y="-7" class="ContributionCalendar-label">Feb</text>
+<text x="638" y="-7" class="ContributionCalendar-label">Mar</text>
 
 </g>  </svg>
