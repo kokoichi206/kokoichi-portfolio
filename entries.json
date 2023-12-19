@@ -1,94 +1,98 @@
 [
   {
-    "title": "ubuntu で Package graphviz is not available, but is referred to by another package.",
-    "url": "https://koko206.hatenablog.com/entry/2023/03/21/003922",
-    "published": "2023-03-21T00:39:22+09:00",
-    "summary": "apt update しても解決しない場合、デフォルトのリポジトリに graphviz が存在しないことが考えられます。 ubuntu のリポジトリとしては main, restricted, universe, multiverse がありますが、ここではなんとなく unive…",
+    "title": "Jetpack Compose で Material You を使う",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/14/192751",
+    "published": "2022-11-14T19:27:51+09:00",
+    "summary": "今回は、Jetpack compose で Material You を使う方法についてメモしておきます。 なお、今回の内容は『Android DevSummit \"Material You in Compose apps\"』から学んだものとなります。 環境 - kotlinCo…",
     "category": [
-      "Shell",
-      "ラズパイ"
+      "Android",
+      "Android-jetpack compose"
     ]
   },
   {
-    "title": "Makefile のすすめ",
-    "url": "https://koko206.hatenablog.com/entry/2023/03/05/023844",
-    "published": "2023-03-05T02:38:44+09:00",
-    "summary": "Go は Makefile との親和性が高いみたく、ちょっと使ってみたので今回はその個人的な紹介です。 どの Go の本にも書いてあるので、gopher なら何かしらみんな使ってるものと思ってます。 目次 Makefile って何よ by Chat-GPT by 詳細 Go 言語…",
+    "title": "ワイヤレスデバッグをステータスバーに表示する方法",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/13/233411",
+    "published": "2022-11-13T23:34:11+09:00",
+    "summary": "開発者モードのオプションにあるワイヤレスデバッグを、ステータスバー（通知バー）に表示する方法をメモしておきます。 開発時、ステータスバーにデバッグオプションを表示させた方が便利なケースが多いです。 標準ではこちらに表示されておりません。 Settings から、『Quick se…",
     "category": [
-      "Go"
+      "Android"
     ]
   },
   {
-    "title": "Makefile で if 文を使って、変数の有無で処理を切り替える",
-    "url": "https://koko206.hatenablog.com/entry/2023/03/04/021902",
-    "published": "2023-03-04T02:19:02+09:00",
-    "summary": "変数の有無で処理を変える 以下のように設定します。 if-test: ## ifeq ($(name),) ## 引数がない時 @echo Hello 名無さん else ## 引数がある時 @echo Hello $(name) endif 引数がある時とない時で処理が変わりま…",
+    "title": "Android: offline-first",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/10/224356",
+    "published": "2022-11-10T22:43:56+09:00",
+    "summary": "Dev Summit: Create offline-first apps を試聴したのでそのメモです（）。 repository 層の役割 リポジトリー層の役割として、少なくとも 2 つのデータソース（LocalDataSource と NetworkDataSource）から…",
+    "category": [
+      "Android"
+    ]
+  },
+  {
+    "title": "Jetpack Compose をデバッグする方法",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/10/202653",
+    "published": "2022-11-10T20:26:53+09:00",
+    "summary": "今回は Android Studio の Layout Inspector Jetpack Compose のを使ってみていくことになります。 環境 - Android Studio: Android Studio Dolphin | 2021.3.1 - kotlinCompi…",
+    "category": [
+      "Android-jetpack compose",
+      "Android"
+    ]
+  },
+  {
+    "title": "ShellCheck から学ぶ良いスクリプトの書き方 〜SC2086(ダブルクォート)編〜",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/08/002123",
+    "published": "2022-11-08T00:21:23+09:00",
+    "summary": "とりあえずは変数はダブルクォーテーションで囲もうってことなんですが、囲まないとどうなるか少し調べてみました。 [目次] Double quote to prevent globbing and word splitting. globbing word splitting おまけ…",
     "category": [
       "Shell"
     ]
   },
   {
-    "title": "docker-compose で立てた psql の結果をローカルで受け取る",
-    "url": "https://koko206.hatenablog.com/entry/2023/02/03/233205",
-    "published": "2023-02-03T23:32:05+09:00",
-    "summary": "以下で紹介していることは基本は psql のオプションになります。 docker compose で立ち上げたコンテナに対して内部の DB に入るには以下のようにできます。 # postgresql: コンテナ名 # root: ユーザー名 # postgresql: 接続したい…",
+    "title": "Jetpack compose で Indicator をなめらかにする",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/07/123151",
+    "published": "2022-11-07T12:31:51+09:00",
+    "summary": "今回は、Jetpack compose でなめらかに Indicator を表示する方法についてメモしておきます。 なお、今回の内容は『Android DevSummit \"5 quick animations to make your Compose app stand out…",
     "category": [
-      "その他"
+      "Android-jetpack compose",
+      "Android"
     ]
   },
   {
-    "title": "ChatGPT で API サーバー(Golang, gin)をさくっと作る",
-    "url": "https://koko206.hatenablog.com/entry/2023/02/03/214400",
-    "published": "2023-02-03T21:44:00+09:00",
-    "summary": "最近は ChatGPT と一番会話をしてる気がします。。。 今回はそんな GhatGPT さんに Go の API サーバーの記述をお願いしたら、思ったより面白いことになったのでその紹介です。 （生成いただいた内容は github においてあります。） TOC やりとり API …",
+    "title": "Android のマルチモジュール化で Preview の高速化",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/06/035812",
+    "published": "2022-11-06T03:58:12+09:00",
+    "summary": "今回は Android のプロジェクトをマルチモジュール化し、Jetpack Compose の Preview を高速化してみました。 [目次] 環境 マルチモジュール化のメリット デメリット マルチモジュール化の方法 プレビュー速度の向上 Links おわりに 環境 - PC…",
     "category": [
-      "その他"
+      "Android-jetpack compose",
+      "Android"
     ]
   },
   {
-    "title": "datadog で apache のログを収集してる際の /server-status を無視する",
-    "url": "https://koko206.hatenablog.com/entry/2023/02/02/234712",
-    "published": "2023-02-02T23:47:12+09:00",
-    "summary": "個人で勉強のために datadog を入れてみてラズパイで動かしているのですが、CPU 等を監視するために datadog-agent が 15 秒おきに /server-status?auto へアクセスを行なっているようです。 気づい時には 3 万 4000 ほど /serv…",
+    "title": "Android のモジュールで BuildConfig を生成しない方法",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/05/131141",
+    "published": "2022-11-05T13:11:41+09:00",
+    "summary": "この間マルチモジュールの対応をしたのですが、その際に BuildConfig について少し気になったので、今回はモジュールにおいて BuildConfig を生成しない方法についてメモしておきます。 各モジュールにおいても、標準では以下のようなファイルが generated フォ…",
     "category": [
-      "Linux"
+      "Android"
     ]
   },
   {
-    "title": "Go 言語で CLI ツールを爆速で作る方法",
-    "url": "https://koko206.hatenablog.com/entry/2023/02/02/231354",
-    "published": "2023-02-02T23:13:54+09:00",
-    "summary": "TOC なぜ Go 言語で CLI ツールを作るのか 作り方 サブコマンドを取らない場合 サブコマンドを取る場合 cobra の使用例 urfave/cli 実際にやってみる setup 初期化 サブコマンドの追加 注意点 なぜ Go 言語で CLI ツールを作るのか 以下の 4…",
+    "title": "マルチモジュールでの compose navigation におけるベストプラクティス（Android DevSummit）",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/05/041905",
+    "published": "2022-11-05T04:19:05+09:00",
+    "summary": "Compose の nagitaion における multi module 対応についての内容を youtube で見ました（\"Type safe, multi-module best practices with Navigation Compose\"）。 この中で 5 つのベ…",
     "category": [
-      "Go",
-      "Linux"
+      "Android",
+      "Android-jetpack compose"
     ]
   },
   {
-    "title": "jq: 階層化された json で UNIX タイムスタンプ を ISO 8601 形式の時間に変換する",
-    "url": "https://koko206.hatenablog.com/entry/2023/02/02/004431",
-    "published": "2023-02-02T00:44:31+09:00",
-    "summary": "TOC 目標 結論 解説 多階層を扱う jq で時刻を扱う 文字列操作 メモ 疑問 おまけ 目標 ↓ の 1 つ目の json を 2 つ目の json のように変換することです。 .*_timestamp の key を持った部分をターゲットとし、key から _timesta…",
+    "title": "Jetpack compose で Back-end (JVM) Internal error",
+    "url": "https://koko206.hatenablog.com/entry/2022/11/03/233345",
+    "published": "2022-11-03T23:33:45+09:00",
+    "summary": "Jetpack compose で開発中、以下のようなエラーが出ました。 Caused by: org.jetbrains.kotlin.codegen.CompilationException: Back-end (JVM) Internal error: Couldn't i…",
     "category": [
-      "Linux"
-    ]
-  },
-  {
-    "title": "pkg.go.dev にある godoc を強制的に更新する方法",
-    "url": "https://koko206.hatenablog.com/entry/2023/01/31/232938",
-    "published": "2023-01-31T23:29:38+09:00",
-    "summary": "前提 一度は情報を読み込めている tag プッシュしたものを反映させたい 方法 push したタグに対応する ↓ のリンクを開く https://pkg.go.dev/github.com/{user_name}/{repository_name}@{tag_version} {…",
-    "category": [
-      "Go"
-    ]
-  },
-  {
-    "title": "GitHub Actions でコミットできない時見直したい設定",
-    "url": "https://koko206.hatenablog.com/entry/2023/01/16/222852",
-    "published": "2023-01-16T22:28:52+09:00",
-    "summary": "はじめに これらは 2023/1/16 現在の情報であり、GitHub の仕様変更によって将来変更を受ける可能性があります。 どんなエラーが出るか 権限不足でコミット等できなかった場合は、以下のようなエラーコードが表示されます（例）。 Invalid status code など…",
-    "category": [
-      "GitHub Actions"
+      "Android",
+      "Android-jetpack compose"
     ]
   }
 ]
